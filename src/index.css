@@ -1,23 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  background-color: #1a202c;
-  color: white;
-  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  letter-spacing: -0.01em;
 }
 
-
-body {
-  font-family: 'Inter', 'Poppins', sans-serif;
+/* Industry standard font classes */
+.font-mono {
+  font-family: 'JetBrains Mono', 'Roboto Mono', 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace;
+  font-feature-settings: 'liga' 1, 'calt' 1;
 }
 
-/* Utility for font-inter */
 .font-inter {
-  font-family: 'Inter', 'Poppins', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 /* Utility for large rounded corners if needed */

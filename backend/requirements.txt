@@ -2,3 +2,7 @@ Flask
 Flask-SocketIO
 speedtest-cli
 eventlet
+reportlab
+python-docx
+matplotlib
+pillow
